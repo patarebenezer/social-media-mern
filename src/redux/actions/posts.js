@@ -34,7 +34,6 @@ export const createPost = (post, history) => async (dispatch) => {
     dispatch({ type: END_LOADING })
   } catch (error) {
       console.log(error.message);
-      console.log(error.message2);
   }
 };
 
